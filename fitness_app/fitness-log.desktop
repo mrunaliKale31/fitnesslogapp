@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Fitness Log
+Comment=Professional fitness tracking application
+Exec=python3 app.py
+Icon=fitness-log
+Terminal=false
+Categories=Utility;
+X-Ubuntu-Touch=true

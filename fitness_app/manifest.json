@@ -1,0 +1,16 @@
+{
+  "name": "fitness-log",
+  "description": "A professional fitness tracking application",
+  "architecture": "all",
+  "title": "Fitness Log",
+  "version": "1.0.0",
+  "maintainer": "Fitness App Developer <dev@example.com>",
+  "framework": "ubuntu-sdk-16.04.6",
+  "apparmor": "apparmor.json",
+  "hooks": {
+    "fitness-log": {
+      "apparmor": "apparmor.json",
+      "desktop": "fitness-log.desktop"
+    }
+  }
+}

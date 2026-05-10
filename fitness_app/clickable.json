@@ -1,0 +1,19 @@
+{
+  "template": "custom",
+  "dependencies_build": [],
+  "dependencies_host": [
+    "python3-dev",
+    "python3-pip",
+    "qml-module-qtquick-controls2",
+    "qml-module-qtquick-layouts",
+    "qml-module-qtquick-window2"
+  ],
+  "dependencies_ppa": [],
+  "build": "pip3 install -r requirements.txt",
+  "launch": "python3 app.py",
+  "architecture": "all",
+  "env": {
+    "QT_QPA_PLATFORM_PLUGIN_PATH": "/usr/lib/x86_64-linux-gnu/qt5/plugins",
+    "QML2_IMPORT_PATH": "/usr/lib/x86_64-linux-gnu/qt5/qml"
+  }
+}
